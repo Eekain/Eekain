@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Eekain
-- 👀 I’m interested in Java, BASH & SQL
+- 👀 I’m interested in Java, BASH, SQL, Testing & Automation
 - 🌱 I’m currently learning Java
 - 💞️ I’m looking to collaborate on what I'm able to.
 
