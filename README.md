@@ -5,8 +5,9 @@
 
 
 The basic site that I'm (usually not) working on:
-*[Github host page](https://eekain.github.io){:target="_blank"}*
+*[Github host page](https://eekain.github.io)*
+(Click with caution and Ctrl / CMD)
 <!---
 Eekain/Eekain is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
+You can click the Preview link to take a look at your changes. For some reason it didn't allow opening page in new page....
 --->
