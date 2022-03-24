@@ -5,7 +5,7 @@
 
 
 The basic site that I'm (usually not) working on:
-<a href="https://eekain.github.io" target="_blank">*Github host page*</a> 
+*[Github host page](https://eekain.github.io){:target="_blank"}*
 <!---
 Eekain/Eekain is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
