@@ -20,15 +20,9 @@ So far I'm familiar with:
   graph TD;
       D(HTML, CSS) --> E[UI tests];
       A(Java core) --> B[Selenium testing];
-      B --> E;
-      B --> F[Minor automations];
-      C(SQL) --> H[MS SQL];
-      C --> I[MySQL];
-      C --> J[T-SQL];
+      B --> E & F[Minor automations];
+      C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
       A --> L[JUnit] --> K[White box testing];
       H --> G[JDBC];
-      A --> G;
-      I --> G;
-      J --> G;
-      G --> K;
+      A & I & J--> G --> K;
 ```
