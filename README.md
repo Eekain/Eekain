@@ -17,6 +17,7 @@ OOOkay, so Mermaid works nicely. Source/Docs: https://mermaid-js.github.io/merma
 So far I'm familiar with:
 
 ```mermaid
+  %%{init: { "flowchart": { "htmlLabels": true, "curve": "linear" } } }%%
   graph TD;
       D(HTML, CSS) --> E[UI tests];
       A(Java core) --> B[Selenium testing];
