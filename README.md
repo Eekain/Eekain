@@ -18,11 +18,11 @@ So far I'm familiar with:
 
 ```mermaid
   graph TD;
-      D[HTML, CSS] --> E[UI tests];
-      A[Java core] --> B[Selenium testing];
+      D(HTML, CSS) --> E[UI tests];
+      A(Java core) --> B[Selenium testing];
       B --> E;
       B --> F[Minor automations];
-      C[SQL] --> H[MS SQL];
+      C(SQL) --> H[MS SQL];
       C --> I[MySQL];
       C --> J[T-SQL];
       A --> L[JUnit] --> K[White box testing];
