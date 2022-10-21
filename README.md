@@ -23,12 +23,12 @@ So far I'm familiar with:
       D[HTML, CSS] --> E[UI tests];
       B --> E;
       B --> F[Minor automations];
-      C --> G[JDBC];
-      G --> H[MS SQL];
-      G --> I[MySQL];
-      G --> J[T-SQL];
+      C --> H[MS SQL];
+      C --> I[MySQL];
+      C --> J[T-SQL];
       A --> L[JUnit] --> K[White box testing];
-      H --> K;
-      I --> K;
-      J --> K;
+      H --> G[JDBC];
+      I --> G;
+      J --> G;
+      G --> K;
 ```
