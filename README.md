@@ -22,8 +22,10 @@ So far I'm familiar with:
       D(HTML, CSS) --> E[UI tests];
       A(Java core) --> B[Selenium testing];
       B --> E & F[Minor automations];
-      C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
+      subgraph Database
+        C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
+        H --> G[JDBC];
+      end
       A --> L[JUnit] --> K[White box testing];
-      H --> G[JDBC];
       A & I & J--> G --> K;
 ```
