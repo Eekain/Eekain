@@ -18,17 +18,17 @@ So far I'm familiar with:
 
 ```mermaid
   graph TD;
-      Java core-->Selenium testing;
-      Java core-->SQL;
-      HTML, CSS-->UI tests;
-      Selenium testing-->UI tests;
-      Selenium testing-->Minor automations;
-      SQL-->JDBC;
-      JDBC-->MS SQL;
-      JDBC-->MySQL;
-      JDBC-->T-SQL;
-      Java-->White box testing;
-      MS SQL-->White box testing;
-      MySQL-->White box testing;
-      T-SQL-->White box testing;
+      A[Java core] --> B[Selenium testing];
+      A --> C[SQL];
+      D[HTML, CSS] --> E[UI tests];
+      B --> E;
+      B --> F[Minor automations];
+      C --> G[JDBC];
+      G --> H[MS SQL];
+      G --> I[MySQL];
+      G --> J[T-SQL];
+      A --> K[White box testing];
+      H --> K;
+      I --> K;
+      J --> K;
 ```
