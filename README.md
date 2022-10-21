@@ -27,7 +27,7 @@ So far I'm familiar with:
       G --> H[MS SQL];
       G --> I[MySQL];
       G --> J[T-SQL];
-      A --> K[White box testing];
+      A --> L[JUnit] --> K[White box testing];
       H --> K;
       I --> K;
       J --> K;
