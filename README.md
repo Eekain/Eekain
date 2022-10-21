@@ -17,7 +17,7 @@ OOOkay, so Mermaid works nicely
 So far I'm familiar with:
 
 ```mermaid
-  graph LR;
+  graph TD;
       D(HTML, CSS) --> E[UI tests];
       A(Java core) --> B[Selenium testing];
       B --> E;
