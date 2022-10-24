@@ -22,7 +22,7 @@ So far I'm familiar with:
       D(HTML, CSS) --> E[UI tests];
       B --> F[Minor automations];
       subgraph Database 
-        C(SQL fa:fa-database) --> H[MS SQL] & I[MySQL] & J[T-SQL];
+        C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
         H --> G[JDBC];
       end
       subgraph Java
