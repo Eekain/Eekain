@@ -21,8 +21,8 @@ So far I'm familiar with:
   graph TD;
       D(HTML, CSS) --> E[UI tests];
       B --> F[Minor automations];
-      subgraph Database fa:fa-database
-        C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
+      subgraph Database 
+        C(SQL fa:fa-database) --> H[MS SQL] & I[MySQL] & J[T-SQL];
         H --> G[JDBC];
       end
       subgraph Java
