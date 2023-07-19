@@ -20,13 +20,16 @@ So far I'm familiar with:
   %%{init: { "flowchart": { "htmlLabels": true, "curve": "linear" } } }%%
   graph TD;
       D(HTML, CSS) --> E[UI tests];
+      
       B --> F[Minor automations];
+      Z --> F[Minor automations];
       subgraph Database 
         C(SQL) --> H[MS SQL] & I[MySQL] & J[T-SQL];
         H --> G[JDBC];
       end
       subgraph Java
         A(Java core) --> B[Selenium testing];
+        A --> Z[JSoup]
         A --> L[JUnit];
       end
       L & G--> K[White box testing];
